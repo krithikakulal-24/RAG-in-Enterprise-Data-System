@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>RAG in Enterprise Data Systems</title>
+
+<style>
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Segoe UI", sans-serif;
+    background-color: #f5f7fa;
+    margin: 0;
+    color: #333;
+}
+
+/* Header */
+.header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+/* Navigation Buttons */
+.nav-buttons {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.button {
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin: 5px;
+    font-size: 0.9em;
+}
+
+.button:hover {
+    background-color: #2c80b4;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+/* Headings */
+h2 {
+    color: #2c3e50;
+    margin-top: 30px;
+}
+
+/* Text */
+p {
+    line-height: 1.7;
+    margin: 15px 0;
+}
+
+/* Image */
+img {
+    width: 100%;
+    border-radius: 6px;
+    margin: 20px 0;
+}
+
+/* Highlight box */
+.box {
+    background: #eef4ff;
+    padding: 15px;
+    border-left: 4px solid #3498db;
+    margin: 20px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin: 30px 0;
+    color: #777;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+<div class="header">
+    <h1>RAG in Enterprise Data Systems</h1>
+    <p>Turning Data into Intelligent Answers</p>
+</div>
+
+<!-- NAVIGATION -->
+<div class="nav-buttons">
+    <a href="#intro" class="button">Introduction</a>
+    <a href="#how" class="button">How It Works</a>
+    <a href="#applications" class="button">Applications</a>
+    <a href="#benefits" class="button">Benefits</a>
+    <a href="#challenges" class="button">Challenges</a>
+    <a href="#future" class="button">Future</a>
+    <a href="#conclusion" class="button">Conclusion</a>
+</div>
+
+<!-- CONTENT -->
+<div class="container">
+
+<!-- INTRO -->
+<h2 id="intro">Introduction</h2>
+<p>
+Every day, companies create and store a large amount of data. From emails and reports to documents and dashboards, information is everywhere. But even with so much data available, finding the right information at the right time is still a challenge.
+</p>
+
+<p>
+This is where Retrieval-Augmented Generation (RAG) comes in. It helps systems find the right information from available data and give accurate answers. In simple terms, it makes data more useful and helps people get the information they need quickly and easily.
+</p>
+
+<img src="rag-retrieval_augmented_generation-neubrutalism-diagram-1-768x469.jpg" alt="Image">
+
+<div class="box">
+RAG combines data retrieval with AI to provide accurate and real-time answers.
+</div>
+
+<!-- HOW IT WORKS -->
+<h2 id="how">How RAG Works</h2>
+<p>
+RAG works like a smart helper that checks information before giving an answer. It does not guess. It first looks for the right information and then gives the answer.
+
+When you ask a question, it follows a simple process step by step.
+</p>
+<h4> 1:Finds Information</h4>
+<p>
+  First, the system looks into different company data like documents, reports, emails, or databases. It tries to find information that is related to your question.
+
+For example, if you ask about sales, it will search in sales reports or related files.
+</p>
+<h4>2:Chooses the Right Data</h4>
+<p>After finding many pieces of information, the system selects only the most useful and relevant data. It ignores unnecessary or unrelated information.
+
+This helps in making sure the answer is correct and focused</p>
+<h4>3:Gives the Answer</h4>
+<p>Now, the system uses the selected information to create a clear and meaningful answer. It explains the answer in a simple way so that the user can understand it easily.</p>
+
+<img src="Introducing-Retrieval-Augmented-Generation-to-the-mix-2.jpg" alt="RAG Architecture">
+
+
+<!-- APPLICATIONS -->
+<h2 id="applications">Real-World Applications</h2>
+<p>
+One common use of RAG is in customer support.
+</p>
+<p>When a customer asks something like “What is your return policy?”, the system doesn’t just give a basic or random answer. Instead, it checks the company’s documents, finds the exact information, and then responds with the correct and updated answer.</p>
+<h4>Healthcare Systems</h4>
+<p>Doctors and hospitals store large medical records.</p>
+<p>RAG helps to:<br>
+Search patient history<br>
+Find reports<br>
+Suggest information<br>
+Gives medical summary</p>
+<!-- BENEFITS -->
+<h2 id="benefits">Benefits</h2>
+<p>
+<h4>RAG provides many useful benefits in real-life situations.</h4>
+
+<p>1.First, it gives more accurate answers. Since it uses real data, the chances of getting wrong or outdated information are reduced.</p>
+
+<p>2.It also saves time. Instead of searching through many documents, users can simply ask a question and get the answer quickly.</p>
+
+3.Another benefit is that it makes work easier. Employees and customers don’t need to depend on others or go through multiple files to find information.
+</p>
+
+<!-- CHALLENGES -->
+<h2 id="challenges">Challenges</h2>
+
+<p>1.One main challenge is data quality. If the data stored in the system is incorrect or outdated, the answers given will also be wrong. So, it is important to keep the data updated and accurate.</p>
+
+<p>2.Another challenge is data security. Since RAG uses company data, it is important to make sure that sensitive information is protected and not shared with the wrong people.</p>
+
+<p>3.setting up RAG in a system can be complex and time-consuming. It requires proper integration with existing data systems, which may take effort and planning.
+</p>
+
+<!-- FUTURE -->
+<h2 id="future">Future Outlook</h2>
+<p>
+In the coming years, the way people interact with data is expected to change a lot. Instead of manually searching through multiple documents or systems, users will rely more on intelligent tools that can understand their questions and provide direct answers.
+
+RAG will play an important role in this transformation. It will help systems deliver more accurate, relevant, and real-time information by combining data retrieval with intelligent response generation.
+
+<!-- CONCLUSION -->
+<h2 id="conclusion">Conclusion</h2>
+<p>
+Retrieval-Augmented Generation is transforming how organizations interact with data. By combining retrieval and generation, it ensures accurate and meaningful responses. As businesses grow, RAG will become essential in enterprise systems.
+</p>
+
+</div>
+
+<footer>
+</footer>
+
+</body>
+</html>
